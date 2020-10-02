@@ -1,12 +1,12 @@
 package com.capgemini.helloworld;
 import java.util.Scanner;
-public class Password {
-	public static void main(String[] args){
+public class Password2 {
+public static void main(String[] args){
 		   try{
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the password");
 		String password = sc.next();
-		String pattern = "[^ ]{8,}$";
+		String pattern = "^(?=.*[A-Z])(?=.*[0-9])[a-zA-Z0-9]{8,}$";
 		if(password.matches(pattern))
 		System.out.println(password);
 		else return;
@@ -21,6 +21,20 @@ public class Password1 {
 		System.out.println("Enter the password");
 		String password = sc.next();
 		String pattern = "^(?=.*[A-Z])[a-zA-Z0-9]{8,}$";
+		if(password.matches(pattern))
+		System.out.println(password);
+		else return;
+		}catch(Exception e){return;}}
+		}
+
+import java.util.Scanner;
+public class Password {
+	public static void main(String[] args){
+		   try{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the password");
+		String password = sc.next();
+		String pattern = "[^ ]{8,}$";
 		if(password.matches(pattern))
 		System.out.println(password);
 		else return;
@@ -77,7 +91,14 @@ public class UserReigstration{
 			String pattern = "[A-Z]*[a-zA-Z]{3,}$";
 			if(lname.matches(pattern))
 				System.out.println(lname);
-
+else
+				return;
+		}
+		catch (Exception e)
+		{
+			return;
+		}
+  }
 
 import java.util.Scanner;
 public class Hello{
