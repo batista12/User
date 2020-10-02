@@ -1,1 +1,1 @@
-Welcome to the user registration program.
+Welcome to the User registration program.
