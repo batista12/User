@@ -1,5 +1,20 @@
 package com.capgemini.helloworld;
 import java.util.Scanner;
+public class Finalpassword {
+	public static void main(String[] args){
+		   try{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the password");
+		String password = sc.next();
+		String pattern = "^(?=.*[A-Z])(?=.*[0-9])(?=.*[@$!%*#?&])[@$!%*#?&]{1}[0-9a-zA-Z]{8,}";
+		if(password.matches(pattern))
+		System.out.println(password);
+		else return;
+		}catch(Exception e){return;}}
+}
+
+  
+import java.util.Scanner;
 public class Password2 {
 public static void main(String[] args){
 		   try{
@@ -39,8 +54,6 @@ public class Password {
 		System.out.println(password);
 		else return;
 		}catch(Exception e){return;}}
-		}
-
 
 import java.util.regex.*;
 import java.util.Scanner;
@@ -112,4 +125,3 @@ public class Hello{
 				System.out.println(fname);
 			else return;
 		}catch(Exception e){return;}}
-}
