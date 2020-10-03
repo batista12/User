@@ -1,6 +1,6 @@
 package com.capgemini.helloworld;
 import java.util.Scanner;
-public class UserRegistration{
+public class userRegistration{
 	public static void main(String[] args){
 	   try{
 	Scanner sc = new Scanner(System.in);
@@ -14,7 +14,7 @@ public class UserRegistration{
 	}
 
 import java.util.Scanner;
-public class Finalpassword {
+public class finalPassword {
 	public static void main(String[] args){
 		   try{
 		Scanner sc = new Scanner(System.in);
@@ -29,7 +29,7 @@ public class Finalpassword {
 
   
 import java.util.Scanner;
-public class Password2 {
+public class finalPassword2 {
 public static void main(String[] args){
 		   try{
 		Scanner sc = new Scanner(System.in);
@@ -43,7 +43,7 @@ public static void main(String[] args){
 		}
 
 import java.util.Scanner;
-public class Password1 {
+public class finalPassword1 {
 	public static void main(String[] args){
 		   try{
 		Scanner sc = new Scanner(System.in);
